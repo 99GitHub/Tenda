@@ -1,0 +1,174 @@
+body{
+	font-size: 0;
+}
+
+.shop_top{
+	height: 45px;
+	line-height: 45px;
+	border: 1px solid #f2f2f2;
+}
+.shop_top span{
+	margin-left:410px;
+	font-size: 15px;
+	color: rgb(255, 102, 0);
+}
+.shop_top div{
+	display: inline;
+	margin-left: 720px;
+}
+.shop_top a{
+	color: #555;
+	font-size: 15px;
+	padding: 0 15px;
+	border-right: 1px solid #f2f2f2;
+}
+.shop_top a:last-of-type{
+	border: none;
+}
+.shop_top .on{
+	color: rgb(255, 102, 0);
+}
+.survey{
+	width: 100%;
+	position: relative;
+}
+.survey h3{
+	position: absolute;
+	top: 890px;
+	left: 1010px;
+	color: #fff;
+    line-height: 60px;
+    font-size: 56px;
+    font-weight: bold;
+}
+.survey span{
+	display: inline-block;
+    height: 120px;
+    width: 970px;
+    padding-left: 30px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 15px;
+    margin-left: 460px;
+    background-color: #ff9933;
+}
+.survey h2{
+	display: inline-block;
+	font-size: 30px;
+    font-weight: bold;
+	margin: 15px 0;
+}
+.survey p{
+	font-size: 16px;
+}
+.parameter{
+	display: none;
+	width: 100%;
+}
+.parameter table{
+	margin: 20px auto;
+}
+.parameter table tr{
+	border-bottom:1px solid #f2f2f2 ;
+}
+.parameter table tr td{
+	font-size: 16px;
+	line-height: 45px;
+	padding:0 20px ;
+}
+.parameter table tr td:nth-child(1){
+	vertical-align: text-top;
+	text-align: right;
+	color: #000;	
+}
+.parameter table tr td:last-of-type{
+	text-align: left;
+	color: #777;
+	border-left:1px solid #f2f2f2 ;
+}
+.image{
+	display: none;
+	position: relative;
+	text-align: center;
+}
+.image .banner{
+	display: inline-block;
+	width: 800px;
+	height: 800px;
+	overflow: hidden;
+}
+.img_list{
+	position: relative;
+	width: 3200px;
+}
+#prev,#next{
+	position: absolute;
+	top: 50px;
+	right: 10px;
+	cursor: pointer;
+}
+.player_left,.player_right{
+	position: absolute;
+	top: 350px;
+	display: inline-block;
+	width: 50px;
+	height: 150px;	
+}
+.player_left{
+	left: 550px;
+}
+.indexlist{
+	position: absolute;
+	top: 730px;
+	left: 880px;
+	z-index: 10;
+	margin: 20px 0;
+}
+.indexlist li{
+	display: inline-block;
+	width: 20px;
+    height: 5px;
+    margin: 0 10px;
+    background-color: #555;
+    cursor: pointer;
+}
+.indexlist .indexon{
+	background-color: rgb(255, 102, 0);
+}
+.FAQ,.share{
+	display: none;
+	width: 100%;
+	height: 600px;
+	line-height: 600px;
+    text-align: center;
+    color: #fd4f00;
+    font-size: 26px;
+}
+.download{
+	display: none;
+	position: relative;
+	width: 1170px;
+	margin: 10px auto;
+}
+.download p{
+	font-size: 18px;
+    line-height: 60px;
+    height: 60px;
+    font-weight: normal;
+    border-bottom: solid 1px #F0F0F0;
+}
+.download span{
+	display: inline-block;
+	border-bottom: solid 1px #F0F0F0;
+}
+.download img{
+	position: relative;
+	top: 1px;
+	margin-right: 10px;
+}
+.download span p{
+	border: none;
+}
+.download a:hover{
+	color: #FD4F00;
+}

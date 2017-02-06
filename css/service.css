@@ -1,0 +1,131 @@
+.service_content{
+	width: 100%;
+}
+.part_1{
+	position: relative;
+	height: 410px;
+	background: #f4f4f4;
+}
+.part_1 div{
+	float: left;
+	position: relative;
+	top: 150px;
+	left: 400px;
+}
+.part_1 div h3{
+	font-size: 26px;
+	font-weight: normal;
+}
+.part_1 div p{
+	font-size: 16px;
+	margin: 15px 0;
+    color: #555;
+}
+.part_1 div input[type="text"]{
+	width: 230px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    padding: 0px 5px;
+    margin-bottom: 25px;
+    border: 2px solid #fd4f00;
+}
+.part_1 div input[type="image"]{
+	position: relative;
+	left: -5px;
+	top: 14px;
+}
+.part_1 img{
+	float: left;
+	position:relative;
+	top: 40px;
+	left: 800px;
+	width: 527px;
+	height: 370px;	
+}
+.part_1 h4{
+    font-size: 14px;
+    font-weight: normal;
+}
+.part_1 h4 a:hover{
+	color: #fd4f00;
+}
+.part_2{
+	text-align: center;
+	margin: 120px 0;
+}
+.part_2 li{
+	margin: 0 60px;
+}
+.part_2 li a{
+	display: block;
+	font-size: 18px;
+	font-weight: normal;
+}
+.part_2 li img{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+.part_2 li span{
+	font-size:16px ;
+	color: #777;
+}
+.part_3{
+	text-align: center;
+	padding: 60px 0;
+	background: #f4f4f4;
+}
+.part_3 h2{
+	height: 60px;
+    line-height: 60px;
+    font-size: 22px;
+    font-weight: 400;
+    background: url(../img/index/lineb.png) no-repeat center bottom;
+}
+.part_3 li{
+	font-size: 16px;
+	padding: 0 10px;
+	margin: 20px 0;
+	border-right: 1px solid rgba(0,0,0,0.8);
+}
+.part_3 li:last-of-type{
+	border: none;
+}
+.part_3 li a:hover{
+	color: #fd4f00;
+}
+.part_3 .part_3_left{
+	margin-left: 400px;
+	float: left;
+}
+.part_3 .part_3_right{
+	margin-left: 195px;
+	float: left;
+}
+.part_3_left li,.part_3_right li{
+	text-align: left;
+	display: block;
+    background: url(../img/service/2.png) no-repeat 4px 3px;
+    padding-left: 25px;
+    border: none;
+}
+.part_4{
+	margin: 100px 0;
+	text-align: center;
+}
+.part_4 li{
+	margin: 10px 50px;
+}
+.part_4 li a{
+	display: block;
+    margin-top: 25px;
+    font-size: 16px;
+}
+.part_4 li a:hover{
+	color: #fd4f00;
+}
+.part_4 li p{
+	color: #777;
+    font-size: 14px;
+    margin-top: 10px;
+}
